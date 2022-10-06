@@ -1,9 +1,9 @@
 * {
     margin: 0px;
-    font-family: Helvetica, sans-serif;
 }
 
-.flex-container {
+body {
+    font-family: Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -23,11 +23,11 @@
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
+    height: 40px;
+    width: auto;
+    border: 2px solid white;
     flex-shrink: 0;
-    padding-right: 164px;
+    margin-right: 166px;
 }
 
 .header-links {
@@ -60,11 +60,6 @@ a,
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.hero-image {
-    width: auto;
-    height: 200px;
 }
 
 .basic-info {
