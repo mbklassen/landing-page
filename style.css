@@ -6,27 +6,28 @@ body {
     font-family: Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
-}
-
-.header {
-    padding: 20px 200px 140px;
-    display: flex;
-    flex-direction: column;
-    gap: 140px;
-    background-color: #1F2937;
     justify-content: flex-start;
 }
 
-.header-top {
+/* Header section */
+
+.header {
+    padding: 10px 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #352850;
+    position: sticky;
+    top: 0;
+    min-width: 800px;
+    max-width: 100vw;
 }
 
 .header-logo {
     height: 40px;
     width: auto;
     border: 2px solid white;
+    border-radius: 8px;
     flex-shrink: 0;
     margin-right: 166px;
 }
@@ -38,15 +39,20 @@ body {
 }
 
 .hero {
+    background-color: #201b2b;
+    padding: 140px 200px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
     align-items: center;
+    min-width: 800px;
+    max-width: 100vw;
+
 }
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: 960;
+    font-weight: 920;
     color: #F9FAF8;
     text-align: center;
 }
@@ -55,23 +61,70 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     text-align: center;
+    max-width: 460px;
 }
 
-.basic-info {
+/* Games section */
+
+.games-section {
+    padding: 60px 200px 140px;
     display: flex;
-    height: 300px;
-    border: 2px solid #1F2937;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    height: 400px;
+    min-width: 800px;
+    max-width: 100vw;
 }
 
+.games {
+    display: flex;
+    gap: 100px;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.game-header-text {
+    font-size: 42px;
+    font-weight: 900;
+    color: #201b2b;
+    text-align: center;
+}
+
+.asteroid-pop,
+.pong {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #6a30d6;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.asteroid-pop-text,
+.pong-text {
+    color: #201b2b;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+/* General */
 
 button {
-    width: 220px;
+    width: 170px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #3882F6;
+    background-color: #6a30d6;
     color: #F9FAF8;
     border: none;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
 }
 
 ul {
@@ -83,5 +136,6 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
+    font-weight: 700;
     color: #E5E7EB;
 }

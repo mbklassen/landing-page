@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Landing Page</title>
+    <title>Gamedev Portfolio | InDream Studio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
-        <div class="header-top">
-            <img class="header-logo" src="./img/logo.jpg" alt="">
-            <ul class="header-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Connect</a></li>
-            </ul>
-        </div>
-        <div class="hero">
-            <div class="hero-main-text">Welcome to InDream Studio</div>
-            <div class="hero-secondary-text">This is my portfolio of game development projects. Click the button below to check out the itch.io page for my latest game, Asteroid Pop!</div>
-            <button>Play Asteroid Pop</button>
-        </div>
+        <img class="header-logo" src="./img/logo.jpg" alt="">
+        <ul class="header-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#">Connect</a></li>
+        </ul>
+    </div>
+    <div class="hero" id="about">
+        <div class="hero-main-text">Welcome to InDream Studio</div>
+        <div class="hero-secondary-text">This is my portfolio of game development projects. Click the button below to check out my itch.io page and see some of the games I have developed.</div>
+        <a href="https://indreamstudio.itch.io/" target="_blank"><button>itch.io page</button></a>
     </div>
     
-    <div class="basic-info">
+    <div class="games-section" id="games">
+        <div class="game-header-text">Games</div>
+        <div class="games">
+            <div class="game-container">
+                <a href="https://indreamstudio.itch.io/asteroid-pop/" target="_blank"><img class="asteroid-pop" src="./img/asteroidpop-display-pic.png" alt=""></a>
+                <div class="asteroid-pop-text">Asteroid Pop</div>
+            </div>
+            <div class="game-container">
+                <a href="https://indreamstudio.itch.io/2-player-pong/" target="_blank"><img class="pong" src="./img/pong-display-pic.png" alt=""></a>
+                <div class="pong-text">2-Player Pong</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
