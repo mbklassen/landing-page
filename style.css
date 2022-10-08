@@ -16,7 +16,8 @@ body {
 .hero,
 .games-section,
 .inspirational-quote,
-.connect-section {
+.connect-section,
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +26,8 @@ body {
 .header,
 .hero,
 .games-section,
-.inspirational-quote {
+.inspirational-quote,
+.footer {
     overflow: hidden;
     padding-left: 200px;
     padding-right: 200px;
@@ -40,6 +42,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #352850;
+
+    /* Sticks header to the top so it scrolls with the page */
     position: sticky;
     top: 0;
 }
@@ -84,7 +88,14 @@ body {
 /* Games section */
 
 .games-section {
-    background-color: #F9FAF8;
+    /* For parallax background image */
+    background-image: url("./img/background-pic-1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding-top: 60px;
     padding-bottom: 140px;
     gap: 60px;
@@ -104,7 +115,7 @@ body {
 .game-header-text {
     font-size: 42px;
     font-weight: 900;
-    color: #201b2b;
+    color: #E5E7EB;
     text-align: center;
 }
 
@@ -112,14 +123,16 @@ body {
 .pong {
     height: 150px;
     width: 150px;
-    border: 6px solid #7649c9;
+    border: 6px solid #E5E7EB;
     border-radius: 12px;
     cursor: pointer;
+
+    box-shadow: 0px 15px 25px #120e1b;
 }
 
 .asteroid-pop-text,
 .pong-text {
-    color: #201b2b;
+    color: #E5E7EB;
     text-align: center;
     font-weight: 700;
 }
@@ -128,10 +141,10 @@ body {
 /* Inspirational quote */
 
 .inspirational-quote {
-    background-color: #ddcbff;
+    background-color: #9a8db6;
     color: #201b2b;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap: 12px;
     justify-content: center;
 }
@@ -153,7 +166,14 @@ body {
 /* Connect section */
 
 .connect-section {
-    background-color: #F9FAF8;
+    /* For parallax background image */
+    background-image: url("./img/background-pic-2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding-top: 140px;
     padding-bottom: 140px;
     gap: 16px;
@@ -167,6 +187,23 @@ body {
     width: 160px;
 }
 
+/* Footer */
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201b2b;
+    color: #E5E7EB;
+    font-size: 14px;
+
+    box-shadow: 0px -18px 50px #120e1b;
+
+}
+
+
 /* General */
 
 button {
@@ -179,6 +216,8 @@ button {
     border-radius: 8px;
     padding: 8px;
     cursor: pointer;
+
+    box-shadow: 0px 15px 25px #120e1b;
 }
 
 ul {
@@ -198,7 +237,7 @@ ul {
     text-decoration: none;
     font-size: 22px;
     font-weight: 900;
-    color: #352850;
+    color: #201b2b;
 }
 
 .connect-section img {
