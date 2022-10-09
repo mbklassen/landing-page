@@ -41,7 +41,7 @@ body {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #5b3d74;
+    background-color: #433850;
     /* Sticks header to the top so it scrolls with the page */
     position: sticky;
     top: 0;
@@ -63,7 +63,7 @@ body {
 /* Hero */
 
 .hero {
-    background-color: #32253f;
+    background-color: #231a2c;
     padding-top: 140px;
     padding-bottom: 140px;
     gap: 16px;
@@ -139,10 +139,10 @@ body {
 /* Inspirational quote */
 
 .inspirational-quote {
-    background-color: #C0B2B2;
-    color: #271637;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-color: #322f47;
+    color: #E5E7EB;
+    padding-top: 60px;
+    padding-bottom: 60px;
     gap: 12px;
 }
 
@@ -174,8 +174,18 @@ body {
 
     padding-top: 140px;
     padding-bottom: 140px;
-    gap: 16px;
     justify-content: center;
+}
+
+.connect-bg-square {
+    background-color:#a884caa4;
+    padding: 20px;
+    padding-left: 44px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 .connect-container {
@@ -193,7 +203,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #32253f;
+    background-color: #231a2c;
     color: #E5E7EB;
     font-size: 14px;
 
@@ -212,7 +222,7 @@ button {
     width: 170px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #5f1b97;
+    background-color: #582b7c;
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
@@ -239,7 +249,7 @@ ul {
     text-decoration: none;
     font-size: 22px;
     font-weight: 900;
-    color: #120632;
+    color: #231a2c;
 }
 
 .connect-section img {
