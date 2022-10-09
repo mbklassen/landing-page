@@ -9,5 +9,5 @@ All pictures were sourced from websites that allowed free download and use of th
 
 Background picture 1: Min An (pexels.com/photo/silhouette-photography-of-person-under-starry-sky-1906658)  
 Background picture 2: Egil Sjøholt (pexels.com/photo/full-moon-illustration-713664)  
-GitHub logo: FreePNGLogos (freepnglogos.com/pics/logo-twitter-png)  
-Twitter Logo: FreePNGLogos (freepnglogos.com-#gsc.tab=1&gsc.q=github&gsc.page=1)  
+GitHub logo: FreePNGLogos (freepnglogos.com)  
+Twitter Logo: FreePNGLogos (freepnglogos.com/pics/logo-twitter-png)
