@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    min-width: fit-content;
 }
 
 /* Multiple selectors */
@@ -28,7 +29,6 @@ body {
 .games-section,
 .inspirational-quote,
 .footer {
-    overflow: hidden;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -36,13 +36,12 @@ body {
 /* Header */
 
 .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #352850;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5b3d74;
     /* Sticks header to the top so it scrolls with the page */
     position: sticky;
     top: 0;
@@ -59,13 +58,12 @@ body {
 .header-links {
     display: flex;
     gap: 16px;
-    flex-shrink: 0;
 }
 
 /* Hero */
 
 .hero {
-    background-color: #201b2b;
+    background-color: #32253f;
     padding-top: 140px;
     padding-bottom: 140px;
     gap: 16px;
@@ -127,7 +125,7 @@ body {
     border-radius: 12px;
     cursor: pointer;
 
-    box-shadow: 0px 15px 25px #120e1b;
+    box-shadow: 0px 20px 30px #0C081C;
 }
 
 .asteroid-pop-text,
@@ -141,18 +139,18 @@ body {
 /* Inspirational quote */
 
 .inspirational-quote {
-    background-color: #9a8db6;
-    color: #201b2b;
+    background-color: #C0B2B2;
+    color: #271637;
     padding-top: 80px;
     padding-bottom: 80px;
     gap: 12px;
-    justify-content: center;
 }
 
 .quote-text {
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
     max-width: 600px;
 }
 
@@ -160,7 +158,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     min-width: 120px;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 /* Connect section */
@@ -195,12 +193,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #201b2b;
+    background-color: #32253f;
     color: #E5E7EB;
     font-size: 14px;
 
-    box-shadow: 0px -18px 50px #120e1b;
+    box-shadow: 0px -18px 40px #0C081C;
 
+}
+
+.footer .text-container {
+    min-width: 190px;
 }
 
 
@@ -210,14 +212,14 @@ button {
     width: 170px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #7649c9;
+    background-color: #5f1b97;
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
     padding: 8px;
     cursor: pointer;
 
-    box-shadow: 0px 15px 25px #120e1b;
+    box-shadow: 0px 8px 30px #0C081C;
 }
 
 ul {
@@ -237,7 +239,7 @@ ul {
     text-decoration: none;
     font-size: 22px;
     font-weight: 900;
-    color: #201b2b;
+    color: #120632;
 }
 
 .connect-section img {
