@@ -1,4 +1,4 @@
-# odin-landing-page
+# landing-page
 This is my landing page project for The Odin Project. I took some creative liberties with this project and used it to jumpstart my game development portfolio. I plan to continue updating the webpage as I learn more.
 
 
