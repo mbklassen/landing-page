@@ -83,14 +83,7 @@ body {
 /* Games section */
 
 .games-section {
-    /* For parallax background image */
-    background-image: url("./img/background-pic-1.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #110e14;
     padding-top: 60px;
     padding-bottom: 140px;
     gap: 60px;
@@ -160,14 +153,7 @@ body {
 /* Connect section */
 
 .connect-section {
-    /* For parallax background image */
-    background-image: url("./img/background-pic-2.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #E5E7EB;
     padding-top: 140px;
     padding-bottom: 140px;
     justify-content: center;
@@ -249,6 +235,29 @@ ul {
 }
 
 /* Media queries for larger screens (mobile came first) */
+
+@media only screen and (min-device-width: 700px) {
+
+    .games-section {
+        /* For parallax background image */
+        background-image: url("./img/background-pic-1.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .connect-section {
+        /* For parallax background image */
+        background-image: url("./img/background-pic-2.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 @media only screen and (min-width: 560px){
     .header {
