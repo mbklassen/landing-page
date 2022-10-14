@@ -13,7 +13,6 @@ body {
 }
 
 /* Multiple selectors */
-
 .hero,
 .games-section,
 .inspirational-quote,
@@ -24,20 +23,11 @@ body {
     align-items: center;
 }
 
-.header,
-.hero,
-.games-section,
-.inspirational-quote,
-.footer {
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
 /* Header */
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -58,6 +48,21 @@ body {
 .header-links {
     display: flex;
     gap: 16px;
+}
+
+@media only screen and (min-width: 860px){
+    .header,
+    .hero,
+    .games-section,
+    .inspirational-quote,
+    .footer {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
 }
 
 /* Hero */
@@ -124,8 +129,6 @@ body {
     border: 6px solid #E5E7EB;
     border-radius: 12px;
     cursor: pointer;
-
-    box-shadow: 0px 20px 30px #0C081C;
 }
 
 .asteroid-pop-text,
@@ -206,9 +209,6 @@ body {
     background-color: #231a2c;
     color: #E5E7EB;
     font-size: 14px;
-
-    box-shadow: 0px -18px 40px #0C081C;
-
 }
 
 .footer .text-container {
@@ -228,8 +228,6 @@ button {
     border-radius: 8px;
     padding: 8px;
     cursor: pointer;
-
-    box-shadow: 0px 8px 30px #0C081C;
 }
 
 ul {
