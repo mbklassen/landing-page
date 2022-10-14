@@ -13,6 +13,7 @@ body {
 }
 
 /* Multiple selectors */
+.header,
 .hero,
 .games-section,
 .inspirational-quote,
@@ -23,12 +24,19 @@ body {
     align-items: center;
 }
 
+.header,
+.hero,
+.games-section,
+.inspirational-quote,
+.footer {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 /* Header */
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #433850;
@@ -38,31 +46,15 @@ body {
 }
 
 .header-logo {
-    height: 40px;
-    width: auto;
+    width: 200px;
+    height: auto;
     border: 3px solid #E5E7EB;
     border-radius: 8px;
-    margin-right: 20px;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
-}
-
-@media only screen and (min-width: 860px){
-    .header,
-    .hero,
-    .games-section,
-    .inspirational-quote,
-    .footer {
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-
-    .header {
-        justify-content: space-between;
-    }
 }
 
 /* Hero */
@@ -106,6 +98,7 @@ body {
 
 .games {
     display: flex;
+    flex-direction: column;
     gap: 100px;
 }
 
@@ -253,4 +246,37 @@ ul {
 .connect-section img {
     width: 40px;
     height: 40px;
+}
+
+/* Media queries for larger screens (mobile came first) */
+
+@media only screen and (orientation: landscape) and (min-width: 600px){
+    .header {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .games {
+        flex-direction: row;
+    }
+
+    .header-logo {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 860px){
+    .header,
+    .hero,
+    .games-section,
+    .inspirational-quote,
+    .footer {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
 }
