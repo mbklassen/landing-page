@@ -12,7 +12,6 @@ body {
     min-width: fit-content;
 }
 
-/* Multiple selectors */
 .header,
 .hero,
 .games-section,
@@ -55,6 +54,13 @@ body {
 .header-links {
     display: flex;
     gap: 16px;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
 }
 
 /* Hero */
@@ -167,7 +173,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .connect-container {
@@ -175,6 +180,18 @@ body {
     align-items: center;
     gap: 12px;
     width: 160px;
+}
+
+.connect-section a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+    color: #231a2c;
+}
+
+.connect-section img {
+    width: 40px;
+    height: 40px;
 }
 
 /* Footer */
@@ -215,28 +232,10 @@ ul {
     padding: 0px;
 }
 
-.header-links a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #E5E7EB;
-}
 
-.connect-section a {
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 900;
-    color: #231a2c;
-}
+/* Media queries for larger screens */
 
-.connect-section img {
-    width: 40px;
-    height: 40px;
-}
-
-/* Media queries for larger screens (mobile came first) */
-
-@media only screen and (min-width: 560px){
+@media only screen and (min-width: 560px) {
     .header {
         flex-direction: row;
         justify-content: center;
@@ -272,7 +271,7 @@ ul {
     }
 }
 
-@media only screen and (min-width: 860px){
+@media only screen and (min-width: 860px) {
     .header,
     .hero,
     .games-section,
