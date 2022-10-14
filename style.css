@@ -89,7 +89,11 @@ body {
 /* Games section */
 
 .games-section {
-    background-color: #110e14;
+    background-image: url("./img/background-pic-1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 60px;
     padding-bottom: 140px;
     gap: 60px;
@@ -159,7 +163,11 @@ body {
 /* Connect section */
 
 .connect-section {
-    background-color: #ac83d3;
+    background-image: url("./img/background-pic-2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 140px;
     padding-bottom: 140px;
     justify-content: center;
@@ -252,22 +260,12 @@ ul {
 
     .games-section {
         /* For parallax background image */
-        background-image: url("./img/background-pic-1.jpg");
-        height: 100%;
         background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .connect-section {
         /* For parallax background image */
-        background-image: url("./img/background-pic-2.jpg");
-        height: 100%;
         background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
 
