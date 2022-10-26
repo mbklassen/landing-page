@@ -4,7 +4,7 @@ This is my landing page project for The Odin Project. I took some creative liber
 
 ---Credits---
 
-All pictures were sourced from websites that allowed free download and use of their images. If there is an issue with any of the pictures being on my webpage, please email me at mklassen4124@gmail.com.
+All pictures were sourced from websites that allowed free download and use of their images. If there is an issue with any of the pictures being used, please email me at mklassen4124@gmail.com.
 
 
 Background picture 1: Min An (pexels.com/photo/silhouette-photography-of-person-under-starry-sky-1906658)  
