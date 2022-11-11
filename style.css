@@ -118,8 +118,7 @@ body {
     text-align: center;
 }
 
-.asteroid-pop,
-.pong {
+.game-img {
     height: 150px;
     width: 150px;
     border: 6px solid #E5E7EB;
@@ -127,8 +126,7 @@ body {
     cursor: pointer;
 }
 
-.asteroid-pop-text,
-.pong-text {
+.game-text {
     color: #E5E7EB;
     text-align: center;
     font-weight: 700;
